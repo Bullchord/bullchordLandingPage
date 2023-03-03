@@ -1,2 +1,0 @@
-# bullchordLandingPage
-Bullchord landing page 

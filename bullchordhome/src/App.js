@@ -1,10 +1,11 @@
 import "./App.css";
-
+import Layouts from "./Layouts/Layouts";
+import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <h2>Hello bullchord</h2>
-    </div>
+    <Router>
+      <Layouts />
+    </Router>
   );
 }
 

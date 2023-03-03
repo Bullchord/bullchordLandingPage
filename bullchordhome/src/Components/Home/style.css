@@ -1,0 +1,21 @@
+.home_container{
+    position: absolute;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    position:relative;
+    width: 1107px;
+    height: 228px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 126.6%;
+}
+
+h4{
+    
+}
