@@ -1,0 +1,59 @@
+.home_container {
+  position: absolute;
+  top: 5rem;
+  display: flex;
+  right: 0px;
+}
+.home-text {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  position: absolute;
+  height: 208px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 120.6%;
+}
+
+.home_container h4 {
+  position: relative;
+  top: 300px;
+  width: 481px;
+  height: 72px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150.6%;
+  letter-spacing: 0.005em;
+
+  color: #000000;
+}
+.home-image {
+  /* background: #14a5ad; */
+  background-image: url("../../Assets/images/blur.svg");
+}
+.home-imagen img {
+  position: relative;
+  top: 60px;
+  left: 320px;
+}
+.home_button {
+  position: relative;
+  top: 340px;
+}
+
+.hero_button {
+  width: 192px;
+  height: 70px;
+  background: #14a5ad;
+  border-radius: 6px;
+  font-size: 16px;
+  border: none;
+  color: aliceblue;
+}

@@ -1,0 +1,56 @@
+.staking {
+  background: #000;
+  height: 850px;
+  position: relative;
+  top: 720px;
+}
+.staking_container {
+  width: 80%;
+  margin: 0 auto;
+}
+h2 {
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 154.1%;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+.stake-header {
+  width: 100%;
+}
+.stake {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.staking h4 {
+  font-family: "poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130.1%;
+  letter-spacing: 0.02em;
+  color: #a2a2a2;
+}
+
+.stake_dash {
+  display: flex;
+}
+.stake_dash h4 {
+  width: 100%;
+}
+.stake_dash img {
+  flex: 1;
+  margin-right: 40px;
+}
+.staking img {
+  width: 350px;
+}
+
+.dash {
+  height: 120px;
+}

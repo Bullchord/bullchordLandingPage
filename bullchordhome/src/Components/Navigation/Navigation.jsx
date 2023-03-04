@@ -39,7 +39,11 @@ const Navigation = () => {
             })}
           </div>
           <div className="nav_menu_button">
-            <Button buttonName={'Join whitelist'} whitelist={whitelist} />
+            <Button
+              buttonName={'Join whitelist'}
+              buttonAction={whitelist}
+              buttonStyle={"navigation_button"}
+            />
           </div>
         </div>
       </div>
