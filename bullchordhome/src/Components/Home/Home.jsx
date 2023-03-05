@@ -2,6 +2,7 @@ import React from 'react'
 import HeroPage from '../Heropage/Hero'
 import Listening from '../Listening/Listening'
 import Staking from '../Staking/Staking'
+import Value from '../Value/Value'
 import NFTDes from './NFTDes'
 import './style.css'
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Listening />
       <Staking />
       <NFTDes />
+      <Value />
     </div>
   )
 }

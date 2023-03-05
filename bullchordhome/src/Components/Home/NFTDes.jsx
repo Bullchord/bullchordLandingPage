@@ -3,7 +3,7 @@ import './style.css'
 
 const NFTDes = () => {
   return (
-    <div>
+    <div className="des">
       Creating a NFT market place for artist and listener in Anyone upcoming
       artiste can do their stuff on-chain, making them more independent{' '}
     </div>
