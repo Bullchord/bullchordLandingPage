@@ -1,14 +1,12 @@
 .staking {
   background: #000;
   height: 850px;
-  position: relative;
-  top: 720px;
 }
 .staking_container {
   width: 80%;
   margin: 0 auto;
 }
-h2 {
+.stake-header h2 {
   font-family: "Neue Machina";
   font-style: normal;
   font-weight: 800;
@@ -24,7 +22,8 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: row;
+  padding: 0;
+  margin-top: -60px;
 }
 
 .staking h4 {
@@ -43,14 +42,17 @@ h2 {
 .stake_dash h4 {
   width: 100%;
 }
-.stake_dash img {
+.stake-img {
   flex: 1;
-  margin-right: 40px;
-}
-.staking img {
-  width: 350px;
+  /* width: 350px; */
+  height: 250px;
 }
 
 .dash {
   height: 120px;
+  margin-right: 40px;
+}
+
+.govern-dash {
+  /* margin-left: 40px; */
 }

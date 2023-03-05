@@ -11,30 +11,33 @@ const Staking = () => {
       <div className="staking_container">
         <div className="stake-header">
           <h2>Staking</h2>
+
           <div className="stake">
             <div className="stake_dash">
               <img src={dashedBorder} alt="" className="dash" />
               <h4>
-                Gamification theory rewards token holders amongst chain
+                s Gamification theory rewards token holders amongst chain
                 activators and other users and encourages them to be honest and
                 work diligently.
               </h4>
             </div>
-
-            <img src={stake} alt="" />
+            <div>
+              <img src={stake} alt="" className="stake-img" />
+            </div>
           </div>
         </div>
+
         <div className="stake-header">
           <h2>Governance</h2>
           <div className="stake">
-            <img src={govern} alt="" />
+            <img src={govern} alt="" className="stake-img" />
             <div className="stake_dash">
               <h4>
                 Chord token holders have control over the DCR. All privileges,
                 including managing exceptional events such as protocol upgrades,
                 system improvement and fixes.
               </h4>
-              <img src={dashedBorder} alt="" className="dash" />
+              <img src={dashedBorder} alt="" className="govern-dash" />
             </div>
           </div>
         </div>
@@ -49,7 +52,7 @@ const Staking = () => {
                 and pools.
               </h4>
             </div>
-            <img src={onchain} alt="" />
+            <img src={onchain} alt="" className="stake-img" />
           </div>
         </div>
       </div>

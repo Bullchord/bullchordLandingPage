@@ -2,24 +2,21 @@
   display: flex;
   height: 700px;
   background: #14a5ad;
-  position: relative;
-  top: 45rem;
   padding: 15px;
 }
 
 .listening_container {
-  width: 80%;
-  position: inherit;
-  left: 150px;
-  top: 130px;
-
+  width: 90%;
+  margin: 0 auto;
   display: flex;
+  padding: 20px;
 }
 .listening_image {
   width: 40%;
+  margin-top: 70px;
 }
 .listening_text {
-  width: 60%;
+  width: 70%;
 }
 .listening h1 {
   font-family: "Neue Machina";
@@ -39,14 +36,13 @@
   line-height: 168.1%;
   letter-spacing: 0.045em;
   color: #f1f1f1;
-  margin-top: -150px;
   width: auto;
+  margin-top: 200px;
 }
 
 .listening .input {
   display: flex;
-  position: relative;
-  top: 400px;
+  margin-top: 80px;
 }
 
 .listening input {
@@ -80,6 +76,6 @@
 
 .tik {
   position: relative;
-  top: 405px;
+  top: 15px;
   left: 600px;
 }

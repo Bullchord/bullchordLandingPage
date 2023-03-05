@@ -1,8 +1,10 @@
+.hero_container {
+  margin-top: 5.5rem;
+}
 .home_container {
-  position: absolute;
-  top: 5rem;
   display: flex;
-  right: 0px;
+  width: 90%;
+  margin: 0 auto;
 }
 .home-text {
   display: flex;

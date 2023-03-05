@@ -7,7 +7,7 @@ import './style.css'
 
 const HeroPage = () => {
   return (
-    <div>
+    <div className="hero_container">
       <div className="home_container">
         <div className="home-text">
           <h1>Web 3 Music Zone For Unlimited Reward.</h1>
