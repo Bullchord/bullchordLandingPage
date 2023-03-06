@@ -7,6 +7,7 @@ import Home from '../Components/Home/Home'
 import { Switch, Routes, Route } from 'react-router-dom'
 import Navigation from '../Components/Navigation/Navigation'
 import './style.css'
+import Footer from '../Components/Footer/Footer'
 
 const Layouts = () => {
   return (
@@ -21,6 +22,7 @@ const Layouts = () => {
           <Route path="/artistes" element={<Tokenomics />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   )
 }

@@ -1,11 +1,10 @@
 import React from 'react'
 import './style.css'
 
-const NFTDes = () => {
+const NFTDes = ({ des }) => {
   return (
     <div className="des">
-      Creating a NFT market place for artist and listener in Anyone upcoming
-      artiste can do their stuff on-chain, making them more independent{' '}
+      <p>{des}</p>
     </div>
   )
 }

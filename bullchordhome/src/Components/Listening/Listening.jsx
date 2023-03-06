@@ -3,6 +3,7 @@ import './style.css'
 import speaker from '../../Assets/images/speaker.svg'
 import tiktik from '../../Assets/images/Tik-tik.svg'
 import Button from '../../Button'
+import BullInput from '../../BullInput'
 
 const Listening = () => {
   const [whitelist, setWhitelist] = useState('')
@@ -23,18 +24,7 @@ const Listening = () => {
             security for all assets
           </h4>
           <div className="listening_input">
-            <div className="input">
-              <input
-                type="email"
-                value={whitelist}
-                placeholder="Enter you email"
-                onChange={(event) => setWhitelist(event.target.value)}
-              />
-              <Button
-                buttonName={'Join Whitelist'}
-                buttonStyle={'listening-button'}
-              />
-            </div>
+           <BullInput whitelist={whitelist} setWhitelist={setWhitelist}/>
             <div className="tik">
               <img src={tiktik} alt="" />
             </div>

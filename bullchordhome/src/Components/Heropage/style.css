@@ -11,7 +11,7 @@
   flex-direction: column;
 }
 
-h1 {
+.home-text h1 {
   position: absolute;
   height: 208px;
   font-family: "Poppins";
