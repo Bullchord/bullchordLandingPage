@@ -16,7 +16,7 @@ const Staking = () => {
             <div className="stake_dash">
               <img src={dashedBorder} alt="" className="dash" />
               <h4>
-                s Gamification theory rewards token holders amongst chain
+                 Gamification theory rewards token holders amongst chain
                 activators and other users and encourages them to be honest and
                 work diligently.
               </h4>

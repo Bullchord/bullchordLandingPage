@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Medium";
+  src: local("Aubrey"), url("./fonts/Audrey-Normal.ttf") format("truetype");
+}
+
 .input {
   display: flex;
   /* margin-top: 50px; */

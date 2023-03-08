@@ -1,0 +1,132 @@
+.tokenomics {
+  /* margin-top: 120px; */
+  color: #d1d0d0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.token-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.token-display {
+  width: 100%;
+  height: 600px;
+  background-image: url("../../Assets//images/token-hero.svg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-display h2 {
+  font-style: bold;
+  font-family: "Neue machina";
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 140.1%;
+  text-align: center;
+  letter-spacing: 0.025em;
+  width: 40%;
+
+  color: #ffffff;
+}
+.hero-display p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 154.1%;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #d6d6d6;
+  margin-bottom: 30px;
+}
+
+.layer-blur {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.token-des {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130.1%;
+  letter-spacing: 0.025em;
+  color: #080808d2;
+  margin: 60px 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.token-des p {
+  width: 50%;
+  text-align: center;
+}
+.token-distro {
+  text-align: center;
+  color: #080808d2;
+  margin-bottom: 50px;
+  width: 80%;
+}
+.token-distro h2 {
+  line-height: 50%;
+  font-family: "Neue machina";
+}
+.distro {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.distro-dits-main {
+}
+
+.distro-dits {
+  display: flex;
+  margin-bottom: 10px;
+}
+.distro-dits p {
+  margin-left: 20px;
+  color: #080808d2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 80.1%;
+  /* identical to box height, or 37px */
+  letter-spacing: 0.025em;
+}
+
+.total-supply img {
+  width: 550px;
+}
+
+.power {
+  display: flex;
+  background: #000;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.power-text {
+  padding: 100px;
+  margin-left: 65px;
+}
+
+.power-text p {
+  width: 80%;
+  font-style: normal;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 154.1%;
+  letter-spacing: 0.025em;
+  color: #d1d0d0;
+}

@@ -63,7 +63,7 @@
   line-height: 154.1%;
   letter-spacing: 0.025em;
 
-  color: #ffffff;
+  color: #ffffffbd;
 }
 
 .box-3-text {
@@ -71,6 +71,14 @@
   justify-content: space-between;
   padding: 2px;
   align-items: center;
+}
+.box-3-name {
+  font-family: "poppins";
+}
+.box-3-name p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 10%;
 }
 .price-logo p {
   /* margin-left: 3px; */

@@ -1,0 +1,55 @@
+.hero-main {
+  margin-bottom: 100px;
+}
+.hero-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  background-color: #14a5ad;
+}
+
+.quarters-a {
+  width: 70%;
+  margin-top: 100px;
+  margin-left: 20%;
+}
+.quarters-timeline {
+  display: flex;
+  align-items: center;
+}
+.quarters-timeline img {
+  margin-right: 20px;
+}
+
+.quarters-2 {
+  margin-left: 51%;
+  margin-top: -150px;
+}
+.main-designs img {
+  position: relative;
+  left: 342px;
+  right: -33px;
+  top: -83px;
+}
+
+.quarters-c {
+  width: 70%;
+  margin-top: -180px;
+  margin-left: 14%;
+}
+.quarters-d {
+  margin-left: 59%;
+  margin-top: -173px;
+}
+
+.main-designs-2 img {
+  position: relative;
+  left: 221px;
+  top: -109px;
+}
+.main-designs-3 img {
+  position: relative;
+  left: 233px;
+  top: -99px;
+}

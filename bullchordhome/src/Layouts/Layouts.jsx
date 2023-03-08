@@ -18,8 +18,8 @@ const Layouts = () => {
           <Route path="/" element={<Home />} />
           <Route path="/docs" element={<Docs />} />
           <Route path="/artistes" element={<Artistes />} />
-          <Route path="/artistes" element={<Team />} />
-          <Route path="/artistes" element={<Tokenomics />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/tokenomics" element={<Tokenomics />} />
         </Routes>
       </div>
       <Footer />

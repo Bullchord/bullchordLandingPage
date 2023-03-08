@@ -1,0 +1,30 @@
+.team-section {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.team-member {
+  margin: 70px 0 70px 0;
+  padding: 15px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(81px);
+  background: rgba(181, 199, 200, 0.13);
+  border-radius: 10px;
+}
+
+.team-section h3 {
+  line-height: 5%;
+}
+.team-socials {
+  margin-top: 15px;
+}
+
+.team-socials img {
+  margin-left: 10px;
+}
