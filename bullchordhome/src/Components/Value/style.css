@@ -73,7 +73,8 @@
   align-items: center;
 }
 .box-3-name {
-  font-family: "poppins";
+  font-family: "medium";
+  font-style: normal;
 }
 .box-3-name p{
   font-size: 18px;

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Medium";
-  src: local("Aubrey"), url("./fonts/Audrey-Normal.ttf") format("truetype");
+  src: local("Aubrey"), url("./Assets/fonts/AUBREY.TTF") format("truetype");
 }
 
 .input {

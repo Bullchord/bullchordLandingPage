@@ -24,9 +24,8 @@
 .home_container h4 {
   position: relative;
   top: 300px;
-  width: 481px;
+  width: 500px;
   height: 72px;
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -58,4 +57,22 @@
   font-size: 16px;
   border: none;
   color: aliceblue;
+}
+
+@media screen and (min-width: 600px) {
+  /* .home_container {
+    margin-top: -2rem;
+    text-align: center;
+  }
+  .home-image {
+    display: none;
+  }
+  .home-text h1 {
+    height: 208px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120.6%;
+  } */
 }

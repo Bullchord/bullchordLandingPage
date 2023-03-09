@@ -17,7 +17,7 @@ const HeroPage = () => {
             blockchains.
           </h4>
           <div className="home_button">
-            <Button buttonName={'buy presale'} buttonStyle={'hero_button '} />
+            <Button buttonName={'Buy presale'} buttonStyle={'hero_button '} />
           </div>
         </div>
         <div className="home-image">
