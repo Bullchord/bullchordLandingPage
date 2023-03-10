@@ -26,14 +26,13 @@
   top: 300px;
   width: 500px;
   height: 72px;
-  font-family: "Poppins";
+  font-family: "Verdana";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 150.6%;
   letter-spacing: 0.005em;
-
-  color: #000000;
+  color: #444950;
 }
 .home-image {
   margin-left: 100px;
@@ -54,7 +53,7 @@
   height: 70px;
   background: #14a5ad;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 18px;
   border: none;
   color: aliceblue;
 }

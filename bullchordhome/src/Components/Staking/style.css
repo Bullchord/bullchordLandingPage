@@ -1,6 +1,7 @@
 .staking {
   background: #000;
   height: 900px;
+  margin-top: -34px;
 }
 .staking_container {
   width: 80%;
@@ -13,7 +14,7 @@
   font-size: 40px;
   line-height: 154.1%;
   letter-spacing: 0.025em;
-  color: #ffffff;
+  color: #f5f6f7;
 }
 .stake-header {
   width: 100%;
@@ -27,7 +28,7 @@
 }
 
 .staking h4 {
-  font-family: "poppins";
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;

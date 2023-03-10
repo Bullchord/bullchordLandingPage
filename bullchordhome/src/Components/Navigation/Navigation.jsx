@@ -1,9 +1,11 @@
 import React from 'react'
 import logoText from '../../Assets/images/logoText.svg'
-import logo from '../../Assets/images/logo.svg'
+import bull from '../../Assets/images/bull.svg'
 import './style.css'
 import Button from '../../Button'
 import { Link } from 'react-router-dom'
+import MenuIcon from '@mui/icons-material/Menu';
+import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
 const Navigation = () => {
   const whitelist = () => {
@@ -17,14 +19,11 @@ const Navigation = () => {
     { id: 4, label: 'Team', link: '/team' },
   ]
   return (
-    <nav>
+    <nav className='nav'>
       <div className="nav-container">
         <div className="logo">
           <div className="logo_image">
-            <img src={logo} alt="Bullchord" />
-          </div>
-          <div className="logo_text">
-            <img src={logoText} alt="Bullchord" />
+            <img src={bull} alt="Bullchord" />
           </div>
         </div>
 
@@ -42,7 +41,7 @@ const Navigation = () => {
             <Button
               buttonName={'Join whitelist'}
               buttonAction={whitelist}
-              buttonStyle={"navigation_button"}
+              buttonStyle={'navigation_button'}
             />
           </div>
         </div>

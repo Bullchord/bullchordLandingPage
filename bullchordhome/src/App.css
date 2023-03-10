@@ -2,6 +2,10 @@
   font-family: "Medium";
   src: local("Aubrey"), url("./Assets/fonts/AUBREY.TTF") format("truetype");
 }
+@font-face {
+  font-family: "Verdana-text";
+  src: local("Verdana"), url("./Assets/fonts/Verdana.ttf") format("truetype");
+}
 
 .input {
   display: flex;
@@ -21,6 +25,7 @@ input {
 }
 input::placeholder {
   font-size: 18px;
+  color: #dadde1;
 }
 
 .listening-button {

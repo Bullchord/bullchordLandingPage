@@ -1,45 +1,51 @@
 import React, { useState } from 'react'
+import { artisteData } from './data'
 import './style.css'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import Slider from 'react-slick'
+
+// font-size: 18px;
+//     font-family: verdana;
+//     color: rgb(91, 94, 109);
 
 const Carousel = ({ images }) => {
-  const [activeIndex, setActiveIndex] = useState(0)
-
-  const handlePrevClick = () => {
-    setActiveIndex(activeIndex === 0 ? images.length - 1 : activeIndex - 1)
+  const settings = {
+    className: 'center',
+    centerMode: true,
+    infinite: true,
+    centerPadding: '80px',
+    slidesToShow: 3,
+    speed: 500,
   }
-
-  const handleNextClick = () => {
-    setActiveIndex(activeIndex === images.length - 1 ? 0 : activeIndex + 1)
-  }
-
   return (
     <div className="carousel">
-      <div className="carousel-images">
-        {images.map((image, index) =>
-          <div
-            key={index}
-            className={`carousel-image ${
-              index === activeIndex ? 'active' : ''
-            }`}
-          >
-            <img src={image} alt={`Image ${index}`} />
-          </div>
-        )}
-      </div>
-      <div className="carousel-controls">
-        <button onClick={handlePrevClick}>Prev</button>
-        <button onClick={handleNextClick}>Next</button>
-      </div>
-      <div className="carousel-pagination">
-        {images.map((_, index) => (
-          <button
-            key={index}
-            className={`${index === activeIndex ? 'active' : ''}`}
-            onClick={() => setActiveIndex(index)}
-          >
-            {index + 1}
-          </button>
-        ))}
+      <div className="carousel-container">
+        <div className="carousel-desc-card">
+          <p>
+            We work with both globally renowned musicians and those who are
+            taking the first steps into their musical journey. We provide the
+            tools and knowledge you need to succeed in all stages of your
+            career.
+          </p>
+        </div>
+        <div className="carousel-card">
+          <Slider {...settings}>
+            {artisteData.map((item) => {
+              return (
+                <div className="card" key={item.id}>
+                  <div className="card-top">
+                    <img src={item.img} alt="" />
+                  </div>
+                  <div className="card-bottom">
+                    <p>{item.artisteName}</p>
+                    <small>{item.stream}</small>
+                  </div>
+                </div>
+              )
+            })}
+          </Slider>
+        </div>
       </div>
     </div>
   )

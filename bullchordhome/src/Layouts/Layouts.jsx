@@ -11,7 +11,7 @@ import Footer from '../Components/Footer/Footer'
 
 const Layouts = () => {
   return (
-    <div>
+    <div className='layout-container'>
       <Navigation />
       <div className="layout">
         <Routes>

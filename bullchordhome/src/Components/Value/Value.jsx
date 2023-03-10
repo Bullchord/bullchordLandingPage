@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import './style.css'
 import headphones from '../../Assets/images/headphones.svg'
 import cd from '../../Assets/images/cd.svg'
@@ -6,8 +6,22 @@ import cdLogo from '../../Assets/images/cdLogo.svg'
 import michael from '../../Assets/images/michael.svg'
 import bnb from '../../Assets/images/bnb.svg'
 import Button from '../../Button'
+import PlayArrowIcon from '@mui/icons-material/PlayArrow'
+import PauseIcon from '@mui/icons-material/Pause'
+import mj from '../../Assets/sounds/mj.wav'
 
 const Value = () => {
+  const [isPlaying, setIsPlaying] = useState(false)
+  const audioRef = useRef(null)
+  const playing = () => {
+    if (isPlaying) {
+      setIsPlaying(false)
+      audioRef.current.pause()
+    } else {
+      setIsPlaying(true)
+      audioRef.current.play()
+    }
+  }
   return (
     <div className="value">
       <div className="value-container">
@@ -37,6 +51,25 @@ const Value = () => {
             </div>
           </div>
           <div className="box-3">
+            <div className="watermark">
+              <img src={cdLogo} alt="" />
+            </div>
+            <div className="player-card">
+              {!isPlaying ? (
+                //if playing is false, play the audio
+                <PlayArrowIcon onClick={playing} className="play-img"/>
+              ) : (
+                //else pause the audio
+                <PauseIcon onClick={playing} />
+              )}
+              <audio
+                ref={audioRef}
+                src={mj}
+                onPause={() => playing}
+                onEnded={playing}
+                autoPlay={isPlaying}
+              />
+            </div>
             <div className="box-3-image">
               <img src={michael} alt="" />
             </div>

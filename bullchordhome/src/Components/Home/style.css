@@ -1,15 +1,15 @@
 .des {
   width: 80%;
   margin: 0 auto;
-  /* or 61px */
   padding: 20px;
 }
 
 .des p {
-  font-family: "Poppins";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
+  font-weight: 500;
+  font-size: 43px;
   line-height: 126.6%;
   text-align: center;
+  color: #1c1e21;
 }

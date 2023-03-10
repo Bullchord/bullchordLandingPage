@@ -1,5 +1,5 @@
 .value {
-  color: aliceblue;
+  color: #f5f6f7;
 }
 .for_listener {
   display: flex;
@@ -11,7 +11,6 @@
   align-items: center;
   background: #000;
   flex: 1;
-  color: aliceblue;
   padding: 15px;
   font-family: "Poppins";
   font-style: normal;
@@ -20,7 +19,10 @@
   line-height: 154.1%;
   letter-spacing: 0.025em;
 }
-.listener_text {
+.listener_text p {
+  color: #ebedf0;
+  line-height: 120%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .value-container {
@@ -40,6 +42,20 @@
 .box-3 {
   background: #0c0b10;
   border-top-right-radius: 10px;
+}
+.watermark {
+  position: absolute;
+}
+.player-card {
+  background: #14a5ad;
+  position: absolute;
+  top: 3000px;
+  right: 479px;
+  cursor: pointer;
+}
+
+.player-card img {
+  width: 80px;
 }
 .overbox {
   background-image: url("../../Assets/images/genre.svg");
@@ -73,10 +89,10 @@
   align-items: center;
 }
 .box-3-name {
-  font-family: "medium";
+  font-family: "Verdana";
   font-style: normal;
 }
-.box-3-name p{
+.box-3-name p {
   font-size: 18px;
   font-weight: 500;
   line-height: 10%;
